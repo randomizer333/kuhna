@@ -1,0 +1,87 @@
+{
+    "tables": [
+        "Recepti",
+        "Sestavine",
+        "Zivila",
+        "Shramba"
+    ],
+    "Recepti": {
+        "naziv": "župa",
+        "sestavine": {
+            "čebula": {
+                "količina": 4,
+                "enotaMere": "g"
+            },
+            "olje": {
+                "količina": 2,
+                "enotaMere": "žlice"
+            }
+        },
+        "navodila": {
+            "1.korak": "zavrite vodo...",
+            "2.korak": "kuhajte"
+        },
+        "trajanje": 45,
+        "postopki": "kuhanje",
+        "obrok": "kosilo",
+        "kategorije": [
+            "brezglutensko",
+            "vegansko"
+        ],
+        "časLeta":["božič", "velika noč"]
+    },
+    "Živila": {
+        "čebula": {
+            "enotaMere": "g",
+            "hranilneSnovi[g/100g]": {
+                "kalorije": 4536,
+                "maščobe": "34423hgf",
+                "ogljikoviHidrati": "gsdf",
+                "sladkor": "150"
+            }
+        },
+        "olje": {
+            "enotaMere": "žlice"
+        }
+    },
+    "Mere": {
+        "kg": "kilogram",
+        "g": "gram",
+        "l": "gLiter",
+        "dl": "Deciliter",
+        "cl": "Centiliter",
+        "liter": "l",
+        "skodelica": "cup"
+    },
+    "Obroki": [
+        "zajtrk",
+        "kosilo",
+        "večerja",
+        "malica"
+    ],
+    "Shramba": {
+        "kruh": {
+            "datumProizvodnje": "23.45.6778",
+        },
+        "mleko": {
+            "datumProizvodnje": "23.45.6778",
+            "kalorije": 4536,
+            "hranilneSnovi": {
+                "maščobe": "34423hgf",
+                "ogljikoviHidrati": "gsdf"
+            }
+        }
+    },
+    "Postopki": {
+        "Kuhanje": {
+            "opis": "gretje živila v loncu",
+            "Pripomočki": [
+                "kuhovnica",
+                "lonec",
+                "grelnik"
+            ]
+        },
+        "Cvrtje": "za cvrtje potrebujete fritezo"
+    },
+    "Log": []
+}
